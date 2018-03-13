@@ -1,3 +1,4 @@
+// change class by clickable image
 document.onclick = function (ev) {
     if (ev.target.tagName == 'IMG') {
         if (ev.target.classList.value == 'imgTarget') {
